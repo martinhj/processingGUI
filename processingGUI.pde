@@ -1,3 +1,6 @@
+//multiwindow code found at:
+//http://forum.processing.org/topic/multiple-windows-2-4-2011
+
 import java.awt.Frame;
 
 PFrame f;
