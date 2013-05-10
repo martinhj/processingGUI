@@ -6,12 +6,14 @@ import java.awt.Frame;
 PFrame f;
 secondApplet s;
 HScrollbar hs1, hs2;
+NewScrollbar ns1;
 
 void setup() {
  size(320, 240);
  f = new PFrame();
  hs1 = new HScrollbar(0, height/2-8, width, 16, 16);
  hs2 = new HScrollbar(0, height/2+8, width, 16, 16);
+ ns1 = new NewScrollbar();
 }
 
 void draw() {
